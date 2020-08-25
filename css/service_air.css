@@ -1,0 +1,436 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #121f36;	
+	font-weight: 400;	
+	font-size: 14px;	
+}
+
+body, div, p, span, ul, li, a, button, form, input, h1, h2, h3, h4, h5, h6, textarea, label, header {
+	box-sizing: border-box;		
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, /*h4,*/ h5, h6 {		
+	text-align: center;	
+}
+
+/*h1, h3, h4 {
+	text-transform: capitalize;
+}*/
+
+h1, h2 {
+	text-transform: uppercase;
+}
+
+input::-webkit-input-placeholder,
+input::-webkit-placeholder { 
+	color: #dedfe1; 
+	font-style: italic;
+	text-indent: 30px;
+}
+
+input {
+	text-indent: 30px;
+	color: #a6a8ad;		
+}
+
+a { 
+	display: block;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-decoration: none;
+	color: #fff;		
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;	
+}
+
+
+
+
+
+
+
+    /*>>>>> Header <<<<<>>>>> Шапка <<<<<*/
+.header {	
+	height: 290px;
+	background: url(../img/servicebg1.jpg) no-repeat center 41px;
+}
+
+/*>>> Социальные сети в header <<<*/
+	
+.top {
+	height: 41px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;		
+}
+
+.login {
+	display: flex;
+}
+
+.login a {
+	color: #121f36;
+	margin-right: 30px;
+	text-transform: capitalize;
+	font-weight: 400;	
+}
+
+.login a:hover, 
+.login a:focus {
+	color: #3caee9;
+	outline: none;
+}
+	
+.social {
+	display: flex;	
+	justify-content: flex-end;	
+}
+
+.social a {
+	color: #000;
+	margin-left: 26px;
+	font-size: 13px;		
+}
+
+.social a:hover, 
+.social a:focus {
+	color: #3caee9;
+	outline: none;
+}
+
+/*>>> Меню сайта и логотип <<<*/
+
+.menu {	
+	margin-top: 38px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.menu_logo {
+	color: #fff;
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: 900;	
+}
+
+.menu_logo span {
+	color: #3caee9;
+}
+
+.menu_nav {
+	display: flex;		
+}
+
+.menu_nav a {	
+	color: #fff;
+	margin-left: 65px;
+	font-weight: 400;		
+}
+
+.menu_nav a:hover, 
+.menu_nav a:focus {
+	color: #3caee9;
+	outline: none;
+}
+
+.menu_active {
+	color: #3caee9;
+	margin-left: 65px;
+	text-transform: uppercase;
+}
+
+/*>>> Заголовки в header <<<*/
+
+.titles {
+	color: #fff;
+	margin-top: 70px;		
+}
+
+h1 {
+	font-size: 30px;	
+	/*font-weight: 900;	*/
+}
+
+h1 + h3 {
+	font-size: 24px;
+	font-weight: 400;
+	color: #ccc;	
+	margin: 14px 0 46px 0;
+}
+
+.titles_buttons {
+	display: flex;		
+	justify-content: space-between;	
+	width: 270px;
+	margin-left: 450px;
+}
+
+.titles_buttons a {	
+	border: 1px solid #3caee9;
+	border-radius: 3px;
+	padding: 12px 22px;	
+	transition: all 0.3s ease; 
+}
+
+.titles_buttons a:hover, 
+.titles_buttons a:focus {
+	background: #3caee9;
+	outline: none;
+}
+
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+.services {
+	height: 1300px;
+}
+
+.freight { 	
+	margin-top: 80px;
+}
+
+.freight_type {	
+	border: 1px solid #f3f3f3;<<<<<<<<<<<<<<<<<
+	
+}*/
+
+	/*>>>>> Типы перевозок <<<<<*/
+
+.services {
+	height: 960px;
+}
+
+.container h2 {
+	font-size: 14px;
+	font-weight: normal;
+	margin-top: 25px;
+}
+
+.container h2 span{
+	color: #3caee9;
+}
+
+.freight {
+	display: flex;
+	margin-top: 85px;
+	justify-content: space-between;
+}
+
+.sidebar {	
+	color: #121f36;
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: capitalize;	
+	line-height: 1.5em;
+	margin-top: 35px;	
+}
+
+.sidebar a {
+	color: #121f36;
+	text-transform: capitalize;
+	padding-left: 19px;
+	margin-bottom: 11px;	
+}
+
+.sidebar a:hover {
+	color: #3caee9;		
+}
+
+.sidebar_active {
+	border-left: 4px solid #3caee9;
+	padding-left: 15px;
+	color: #3caee9;
+	margin: 0 0 11px 0;
+}
+
+.content {
+	border-left: 1px solid #d0d2d7;	
+	padding: 40px 100px 30px 100px;
+	width: 971px;
+}
+
+.content h3 {
+	font-size: 30px;	
+	text-align: left;
+}
+
+.content img {
+	padding: 40px 0;
+}
+
+.content h4 {
+	font-size: 18px;
+}
+
+.content p {
+	margin-top: 20px;
+	line-height: 1.8em;
+}
+
+/*.freight { 
+	margin-top: 220px;	
+
+	margin-top: 85px;<<<<<<<<<<<<<<<
+	display: flex;
+	justify-content: space-between;
+}
+
+.freight_type {
+	display: flex;
+	flex-direction: column;
+	align-items: center;	
+	padding: 24px;
+	background: #fff;
+	text-align: center;		
+	font-size: 16px;
+
+	border-bottom: 1px solid #f3f3f3;
+
+	border: 1px solid #f3f3f3;<<<<<<<<<<<<<<<<<
+	transition: all 0.3s ease;
+}
+
+.freight_type:hover {
+	box-shadow: 0 10px 15px #d4d4d4;	
+}
+
+.freight_type h3 {
+	font-size: 30px;	
+	margin: 30px 0;
+}
+
+.freight_type p {
+	line-height: 1.5em;	
+	width: 280px;	
+}
+
+.freight_type a {
+	color: #3caee9;
+	text-decoration: underline;
+	margin-top: 34px;	
+}
+
+.freight_type a:hover {
+	text-decoration: none;
+} 
+
+.freight_type a:focus {
+	text-decoration: none;
+	outline: none;
+	text-shadow: 0 5px 10px #d4d4d4;
+}*/
+
+
+
+
+
+	/*>>>>> Footer <<<<<*/
+
+.footer {
+	background: url(../img/footerbg.jpg) center top;	
+	color: #ccc;		
+}
+
+.columns {	
+	display: flex;
+	justify-content: space-between;		
+	padding: 90px 0;
+}
+
+.columns_info h3 {
+	font-size: 24px;	
+	color: #fff;
+	text-align: left;
+	margin-bottom: 30px;
+}
+
+.columns_text {	
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 165px;
+}
+
+.forma {
+	height: 140px;
+}
+
+.info-first, .info-fourth {
+	width: 270px;	
+}
+
+.info-fourth button {
+	display: none;
+}
+
+.columns p {
+	line-height: 1.7em;	
+}
+
+.info-second p {
+	line-height: 1em;
+	text-transform: capitalize;
+}
+
+.social_bottom {
+	justify-content: flex-start;
+	height: 1em;
+}
+
+.social_bottom a {	
+	color: #ccc;	
+	margin: 0 26px 0 0;
+}
+
+.columns_text p .fas {
+	display: inline-block;
+	float: left;
+	margin: 5px 20px 20px 0;	
+}
+
+.copyrights {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 41px;
+	border-top: 1px solid #253145;
+	text-transform: capitalize;
+}
+
+.columns_text input {
+	height: 47px;
+	border: 1px solid #253145;
+	border-radius: 3px;
+	background: none;
+	width: 270px;
+	text-indent: 30px;	
+	color: #fff;
+}
+
+.columns_text input::-webkit-input-placeholder, 
+.columns_text input::-webkit-placeholder { 
+	color: #31394a; 
+} 
+
+.columns_text input:hover,
+.columns_text input:focus {
+	outline: none;
+	border: 1px solid #fff;
+	border-radius: 3px;	
+}
+
+label.mail {  
+  position: relative;
+  left: 240px;
+  bottom: 32px;  
+}
+
+label.mail:hover {
+	cursor: pointer;
+}
