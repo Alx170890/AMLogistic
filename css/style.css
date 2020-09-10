@@ -52,6 +52,7 @@ a {
 .header {	
 	height: 1400px;
 	background: url(../img/bg.jpg) no-repeat center 41px;
+	background-size: contain;
 }
 
 /*>>> Социальные сети в header <<<*/
@@ -476,7 +477,8 @@ h1 + h3 {
 	/*>>>>> Показатели <<<<<*/
 
 .counters {
-	background: url(../img/fly2.jpg) no-repeat center top;
+	background: url(../img/fly2.jpg) no-repeat center bottom;
+	background-size: contain;
 }
 
 .counter {
@@ -622,7 +624,8 @@ h1 + h3 {
 	/*>>>>> Отзывы <<<<<*/
 
 .clients-testimenials {
-	background: url(../img/testimenials.jpg) no-repeat center top;
+	background: url(../img/testimenials.jpg) no-repeat center bottom;
+	background-size: contain;
 	height: 500px;	
 	color: #c5c5c7;	
 	display: flex;

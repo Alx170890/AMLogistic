@@ -59,6 +59,7 @@ a {
 .header {	
 	height: 290px;
 	background: url(../img/servicebg1.jpg) no-repeat center 41px;
+	background-size: contain;
 }
 
 /*>>> Социальные сети в header <<<*/
